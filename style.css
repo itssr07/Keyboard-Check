@@ -1,0 +1,58 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  * {
+    box-sizing: border-box;
+  }
+  
+ 
+  nav {
+    background-color: #333;
+    padding: 10px; 
+    text-align: center; 
+  }
+  
+  nav a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
+  }
+  
+  nav a:hover {
+    color: #ddd; 
+  }
+  
+
+  .project {
+    background-color: #1c1c1c; 
+    color: #ffffff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh; 
+  }
+  
+
+  #insert {
+    max-width: 600px; 
+    padding: 20px; 
+  }
+  
+  .key {
+    font-size: 24px; 
+  }
+  
+  
+  .link {
+    color: #add8e6; 
+  }
+  
+  .link:hover {
+    text-decoration: underline; 
+  }
+  
